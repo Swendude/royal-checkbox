@@ -1,0 +1,101 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: white;
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* reset */
+button {
+  all: unset;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  margin: 0;
+
+  min-width: 320px;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+.check {
+  display: flex;
+  align-items: flex-end;
+  gap: 2rem;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 4rem;
+  text-align: center;
+}
+
+.eed {
+  margin: 3rem;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 1.2rem;
+  opacity: 0.9;
+  line-height: 3.5rem;
+}
+.beloof {
+  font-size: 2rem;
+}
+
+#cb-root {
+  height: 52px;
+  aspect-ratio: 1;
+  border-radius: 5%;
+  border-width: 4px;
+  border-style: solid;
+  border-color: white;
+  position: relative;
+}
+
+#cb-root:hover {
+  cursor: pointer;
+}
+
+.indicator {
+  width: 100%;
+  height: 100%;
+  background-color: #ff8000;
+}
+
+.crown {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  opacity: 0;
+}
+
+.footer {
+  /* position: fixed;
+  bottom: 0;
+  left: 0; */
+  width: 100%;
+}
