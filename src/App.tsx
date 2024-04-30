@@ -96,7 +96,7 @@ function App() {
       <div className="footer">
         <p>
           Made{" "}
-          <a target="_blank" href="https://github.com/Swendude/chicken">
+          <a target="_blank" href="https://github.com/Swendude/royal-checkbox">
             open-source
           </a>{" "}
           with ❤️ by{" "}
